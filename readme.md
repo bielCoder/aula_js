@@ -1,1 +1,1 @@
-*Primeiro Script*
+*Nessa aula foi ensinado sobre variáveis*

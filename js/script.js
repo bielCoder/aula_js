@@ -1,1 +1,4 @@
-console.log("Hello World!");
+// Aula foi ensinado sobre variáveis".
+	
+	var nome = "Gabriel";
+		console.log(nome);
