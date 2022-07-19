@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre objects*
+*Nessa aula foi ensinado sobre arrays*

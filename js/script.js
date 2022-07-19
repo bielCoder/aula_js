@@ -1,19 +1,16 @@
-// Ensinando sobre object.
+// Ensinando sobre arrays.
 
-	var pessoa = {
-		nome : "Gabriel",
-		idade : 23,
-		altura : 1.72,
-		empregado: true,
-		profissao : "Programador"
-	};
+	var mochila = ["Pão","Tesoura","Celular","Martelo","Presunto"];
+	var comida = ["Carne","Biscoito","Suco","Agua","Leite"];
 
-	console.log(pessoa);
-	console.log("Manipulando o objeto:");
-	console.log("Nome : "+pessoa.nome);
-	console.log("Idade : "+pessoa.idade);
-	console.log("Altura : "+pessoa.altura);
-	console.log("Empregado : "+pessoa.empregado);
-	console.log("Profissão : "+pessoa.profissao);
+	mochila.push(comida[0]);
+	mochila.push(comida[1]);
+	mochila.push(comida[2]);
+	mochila.push(comida[3]);
+	mochila.push(comida[4]);
 
+	
 
+	console.log(mochila);
+
+	
