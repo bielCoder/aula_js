@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre as particularidades da linguagem*
+*Nessa aula foi ensinado sobre como declarar variáveis*
