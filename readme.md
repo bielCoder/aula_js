@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado como linkar no body seu script*
+*Nessa aula foi ensinado sobre as particularidades da linguagem*
