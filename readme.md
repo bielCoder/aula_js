@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre arrays*
+*Nessa aula foi ensinado sobre operador condicional if*
