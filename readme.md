@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre como declarar variáveis*
+*Nessa aula foi ensinado sobre typeof*

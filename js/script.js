@@ -1,12 +1,14 @@
-// Ensinando a declarar variáveis.
+// Ensinando sobre typeof.
 
-	var nome = "Gabriel ";
-	var segundoNome = "Henrique ";
-	var sobreNome = "Carvalho ";
-	var ultimoNome = "de Sousa";
+	var nome = "Gabriel";
+	var idade = 23;
+	var casado = true; // ou false.
+	//Para outras linguagens teria o float, Js descrito tambem como number. 
+	var altura = 1.72;
 
-	var inteiro = 8; 
-	var float = 2.9;
-	var string = "texto";
-	var boolean = true; //ou false
-	console.log(boolean);
+		console.log("nome : "+ typeof(nome))+"<br>";
+		console.log("nome : "+ typeof(altura))+"<br>";
+		console.log("idade : "+ typeof(idade))+"<br>";
+		console.log("casado : "+ typeof(casado))+"<br>";
+
+
