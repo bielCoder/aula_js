@@ -1,3 +1,1 @@
-// Primeiro programa Js.
-
-	console.log("Olá mundo!");
+// A linguagem é case-sensitive

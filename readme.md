@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado console.log*
+*Nessa aula foi ensinado sobre as particularidades da linguagem*
