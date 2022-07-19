@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre variáveis*
+*Nessa aula foi ensinado console.log*
