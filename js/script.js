@@ -7,7 +7,7 @@
 	var altura = 1.72;
 
 		console.log("nome : "+ typeof(nome))+"<br>";
-		console.log("nome : "+ typeof(altura))+"<br>";
+		console.log("altura : "+ typeof(altura))+"<br>";
 		console.log("idade : "+ typeof(idade))+"<br>";
 		console.log("casado : "+ typeof(casado))+"<br>";
 
