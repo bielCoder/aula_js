@@ -1,4 +1,3 @@
-// Aula foi ensinado sobre variáveis".
-	
-	var nome = "Gabriel";
-		console.log(nome);
+// Primeiro programa Js.
+
+	console.log("Olá mundo!");
