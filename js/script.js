@@ -1,14 +1,19 @@
-// Ensinando sobre typeof.
+// Ensinando sobre object.
 
-	var nome = "Gabriel";
-	var idade = 23;
-	var casado = true; // ou false.
-	//Para outras linguagens teria o float, Js descrito tambem como number. 
-	var altura = 1.72;
+	var pessoa = {
+		nome : "Gabriel",
+		idade : 23,
+		altura : 1.72,
+		empregado: true,
+		profissao : "Programador"
+	};
 
-		console.log("nome : "+ typeof(nome))+"<br>";
-		console.log("altura : "+ typeof(altura))+"<br>";
-		console.log("idade : "+ typeof(idade))+"<br>";
-		console.log("casado : "+ typeof(casado))+"<br>";
+	console.log(pessoa);
+	console.log("Manipulando o objeto:");
+	console.log("Nome : "+pessoa.nome);
+	console.log("Idade : "+pessoa.idade);
+	console.log("Altura : "+pessoa.altura);
+	console.log("Empregado : "+pessoa.empregado);
+	console.log("Profissão : "+pessoa.profissao);
 
 

@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre typeof*
+*Nessa aula foi ensinado sobre objects*
