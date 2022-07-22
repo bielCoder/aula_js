@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre operador condicional if*
+*Nessa aula foi ensinado sobre operador de comparação*
