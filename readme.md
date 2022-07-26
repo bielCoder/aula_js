@@ -1,1 +1,1 @@
-*Nessa aula foi ensinado sobre operador de comparação*
+*Nessa aula foi ensinado sobre else e elseif*
