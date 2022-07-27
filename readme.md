@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre operador logico And*
+*Nessa aula foi ensinado sobre operador logico OR*
 	

@@ -1,9 +1,8 @@
+var nome = "Matheus";
+var idade = 14;
 
-	var idade = 16;
-	var nome = "Matheus";
-
-		if ((idade == 16)&&(nome == "João")) {
-			document.write("Olá João seja bem-vindo!");
-		}else{
-			document.write("Você não é o João,você se chama "+nome);
-		}
+	if((nome == "João")||(idade == 16)){
+			document.write("Olá seja bem-vindo!")
+	}else{
+		document.write("Você não tem acesso a essa aula.");
+	}
