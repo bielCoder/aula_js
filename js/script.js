@@ -1,14 +1,12 @@
 
-	var x = 2;
-	var y = 3;
 
-	// atribuição soma
-	// document.write(x+=y);
-	// atribuição subtracao
-	// document.write(x-=y);
-	// atribuição produto
-	// document.write(x*=y);
-	// atribuição divisão
-	// document.write(x/=y);
-	// atribuição modulo
-	// document.write(x%=y);
+// for(var i = 0; i <= 10 ; i++){
+// 	document.write(i);
+// }
+
+
+	var arr = [1,2,3,4];
+
+	for(var i = 0; i < arr.lenght; i++){
+			console.log(arr[0]);
+	}
