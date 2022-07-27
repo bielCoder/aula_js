@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre estrutura de repetiçao While*
+*Nessa aula foi ensinado sobre operadores de atribuição*
 	

@@ -1,18 +1,14 @@
 
-// var arr = ["Teste","Testando","a","b"];
-// var x = 0;
-// while(x < 4){
-// 	document.write(arr[x]+"<br>");
-// 	console.log(arr[x])+"<br>";
-// 	x++;
-// }
+	var x = 2;
+	var y = 3;
 
-var palavra = "GABRIEL";
-var x = 0;
-
-	while(x < 7){
-		document.write(palavra[x]+"<br>");
-		console.log(palavra[x])+"<br>";
-
-		x++;
-	}
+	// atribuição soma
+	// document.write(x+=y);
+	// atribuição subtracao
+	// document.write(x-=y);
+	// atribuição produto
+	// document.write(x*=y);
+	// atribuição divisão
+	// document.write(x/=y);
+	// atribuição modulo
+	// document.write(x%=y);
