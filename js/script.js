@@ -1,3 +1,8 @@
-// Primeiro programa Js.
+var nome = "Matheus";
+var idade = 14;
 
-	console.log("Olá mundo!");
+	if((nome == "João")||(idade == 16)){
+			document.write("Olá seja bem-vindo!")
+	}else{
+		document.write("Você não tem acesso a essa aula.");
+	}
