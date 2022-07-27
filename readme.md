@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre funções*
+*Nessa aula foi ensinado sobre for na pratica e iniciado o DOM*
 	
