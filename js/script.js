@@ -1,3 +1,9 @@
-// Primeiro programa Js.
+if (!true) {
+	document.write("Passou");
+}
 
-	console.log("Olá mundo!");
+var nome = "Gabriel";
+
+if(!((nome == "Gabriel")&&(16 > 11))){
+	document.write("Passou");
+}
