@@ -1,11 +1,19 @@
+// operador break
 
-
-// for(var i = 0; i <= 10 ; i++){
-// 	document.write(i);
+// for(var i = 10; i > 0; i--){
+// 	console.log(i);
+// 	if(i === 5){
+// 		break;
+// 	}
 // }
+// 	console.log("Deu break.");
 
-	var arr = [1,2,3,4];
+// operador continue
 
-	for(i = 0; i < arr.length; i++){
-			console.log(arr[i]);
+for(var i = 10; i <= 100; i += 10){
+	
+	if(i === 30){
+		continue;
 	}
+	console.log(i);
+}

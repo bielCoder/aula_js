@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre estrutura de repetição for*
+*Nessa aula foi ensinado sobre break e continue*
 	
