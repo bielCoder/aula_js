@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre Arrays*
+*Nessa aula foi ensinado sobre Orientação a Objetos*
 	
