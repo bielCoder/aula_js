@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre métodos string*
+*Nessa aula foi ensinado sobre Arrays*
 	

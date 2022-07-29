@@ -1,70 +1,82 @@
-// length
 
-	var nome = "Gabriel";
-	var obj = "Bola";
+	// var arr = [1,2,3,4,5,6,8];
 
-	console.log(nome.length);
-	console.log(obj.length);
+	// var obj = {
+	// 	nome : "Gabriel",
+	// 	idade : 23,
+	// 	sexo : "Masc"
+	// };
 
-// indexOf
 	
-	console.log("O nome dele é " + nome + " e o a primeira letra de seu nome é: " + nome[0]);
-	console.log("O objeto que " + nome +" utiliza é " + obj + " e seu objeto se inicia com a letra: " + obj[0]);
 
-	// pode se também saber qual o index que está iniciando a palavra que procura.
+	// length no array.
 
-	// Ex :
+	// 	var comprimento = arr.length;
+	// 	console.log("Comprimento : "+comprimento);
 
-	var frase = "O rato roeu a roupa do rei de roma";
+	// adicionar elementos ao fim do array com push.
 
-	console.log(frase.indexOf("rei"));
-
-// slice
-
-	// pode manipular a frase, pegando apenas dados especificos.
-	// Ex : 
-
-	var roeu = frase.slice(7,11);
-
-	console.log(roeu); // manipulei e coletei apenas o dado "roeu".
-
-// replace
-
-	console.log(frase.replace("roeu","testou")); // método utilizado para substituir strings.
+	// 	arr.push(6);
+		
 
 
-// inicia-se parte 2 , modificando conteudo do texto.
 
-	// Alterando o formato do texto para "Caixa Alta ou Caixa Baixa".
+	// // remover o ultimo elemento do array com pop.
+		
+	// 	arr.pop();
 
-	var caixaBaixa = "A ROUPA DO REI DE ROMA O RATO ROEU";
-	console.log(caixaBaixa.toLowerCase()); // texto foi alterado para caixa baixa.
+	// // adicionando elemento no inicio do array com unshift.
 
-	var caixaAlta = "a roupa do rei de roma o rato roeu";
-	console.log(caixaAlta.toUpperCase()); // texto foi alterado para caixa alta.
+	// 	arr.unshift(0);
 
-	// Formatando texto com trim.
+	// 	arr.unshift('teste');
 
-	var nomeSemFormatacao = "          Gabriel         ";
 
-		console.log(nomeSemFormatacao);
+		
 
-	var nomeFormatado = nomeSemFormatacao.trim();
+	// // remover o elemento no inicio do array com shift.
+		
+	// 	arr.shift();
+	
+	// // acessar o ultimo elemento do array.
 
-		console.log(nomeFormatado);
+	// 	console.log("Ultimo elmento do array : "+arr[arr.length - 1]);
 
-	// formatação split, colocando frases ou dados em array.
 
-		var tags = "PHP,JavaScript,HTML5,CSS";
 
-		console.log(tags.split(','));
+	// // metodo isArray, verifica se o elemento é array.
 
-	// formataçao lastIndexOf.
+	// 	// Ex:
 
-	var segundaFrase = "Essa frase é de teste para concluir o indexof no seu ultimo teste";
+	// 	console.log("O elemento obj é array : " + Array.isArray(obj));
+	// 	console.log("O elemento arr é array : " + Array.isArray(arr));
 
-		// console.log(segundaFrase.indexOf("teste")); // pegando a primeira palavra buscada pelo indexof.
 
-		console.log(segundaFrase.lastIndexOf("teste")); // pegando o ultima palavra buscada pelo indexof. 
+	
 
+	// método splice.
+
+		var arr = [1,2,3,5,7,8];
+
+			arr.splice(3,0,4);
+			arr.splice(5,0,6);
+			arr.splice(4,1,);
+			arr.splice(1,1);
+			console.log(arr);
+
+	// indexof
+
+		var arr_dois = ["jaca","pera","maça","banana"];
+
+			console.log(arr_dois.indexOf("maça"));
+
+	// join
+
+		var frase_dois = ["O","rato","roeu","a","roupa","do","rei","de","roma"];
+
+				console.log(frase_dois.join(" "));
+
+	// reverse
+
+		console.log(frase_dois.reverse().join(" "));
 
