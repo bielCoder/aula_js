@@ -1,3 +1,7 @@
-// Primeiro programa Js.
-
-	console.log("Olá mundo!");
+	var frase = "Olá mundo , no escopo global";
+	
+	function local(){
+		 frase = "Olá mundo , no escopo local"
+			console.log(frase);
+		}
+		local();
