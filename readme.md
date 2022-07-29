@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre métodos numéricos*
+*Nessa aula foi ensinado sobre métodos string*
 	

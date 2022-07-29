@@ -1,21 +1,70 @@
-// parseFloat
-	console.log(parseFloat('12.98')); // por mais que está dentro de string, transforma-se em number, por causa do método.
-	console.log(Number.parseFloat('24.99')); // poucamente utlizado , utiliza-se mais método "sugar".
+// length
 
-// parseInt
-	console.log(parseInt('10')); // por mais que esteja em modo string, o método transforma em number tipo inteiro.
-	console.log(parseInt(12.37)); // por mais que seja ponto flutuante, é arredondado para os primeiros digito.
+	var nome = "Gabriel";
+	var obj = "Bola";
 
-// toFixed
-	console.log(parseFloat(7.34.toFixed(1)));
+	console.log(nome.length);
+	console.log(obj.length);
 
-// isNaN
-	console.log(isNaN('Teste')); // Verifica se o dado informado não é número.
-	console.log(isNaN(12));// Resultado dará false, pois 12 é um número.
-	console.log(isNaN('21'));// Resultado dará false, Js converte automaticamente para número.
+// indexOf
+	
+	console.log("O nome dele é " + nome + " e o a primeira letra de seu nome é: " + nome[0]);
+	console.log("O objeto que " + nome +" utiliza é " + obj + " e seu objeto se inicia com a letra: " + obj[0]);
 
-// MIN_VALUE e MAX_VALUE
+	// pode se também saber qual o index que está iniciando a palavra que procura.
 
-	console.log(Number.MIN_VALUE);
-	console.log(Number.MAX_VALUE);
-	console.log(2.7976931348623157e+308);
+	// Ex :
+
+	var frase = "O rato roeu a roupa do rei de roma";
+
+	console.log(frase.indexOf("rei"));
+
+// slice
+
+	// pode manipular a frase, pegando apenas dados especificos.
+	// Ex : 
+
+	var roeu = frase.slice(7,11);
+
+	console.log(roeu); // manipulei e coletei apenas o dado "roeu".
+
+// replace
+
+	console.log(frase.replace("roeu","testou")); // método utilizado para substituir strings.
+
+
+// inicia-se parte 2 , modificando conteudo do texto.
+
+	// Alterando o formato do texto para "Caixa Alta ou Caixa Baixa".
+
+	var caixaBaixa = "A ROUPA DO REI DE ROMA O RATO ROEU";
+	console.log(caixaBaixa.toLowerCase()); // texto foi alterado para caixa baixa.
+
+	var caixaAlta = "a roupa do rei de roma o rato roeu";
+	console.log(caixaAlta.toUpperCase()); // texto foi alterado para caixa alta.
+
+	// Formatando texto com trim.
+
+	var nomeSemFormatacao = "          Gabriel         ";
+
+		console.log(nomeSemFormatacao);
+
+	var nomeFormatado = nomeSemFormatacao.trim();
+
+		console.log(nomeFormatado);
+
+	// formatação split, colocando frases ou dados em array.
+
+		var tags = "PHP,JavaScript,HTML5,CSS";
+
+		console.log(tags.split(','));
+
+	// formataçao lastIndexOf.
+
+	var segundaFrase = "Essa frase é de teste para concluir o indexof no seu ultimo teste";
+
+		// console.log(segundaFrase.indexOf("teste")); // pegando a primeira palavra buscada pelo indexof.
+
+		console.log(segundaFrase.lastIndexOf("teste")); // pegando o ultima palavra buscada pelo indexof. 
+
+
