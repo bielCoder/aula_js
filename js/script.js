@@ -1,9 +1,9 @@
 
-	let pessoa = {
+	var pessoa = {
 		nome : "Gabriel",
 		idade : 23,
 		falar : function(){
-			console.log("Olá tudo bem?");
+			console.log("Olá tudo bem?,meu nome é :" + this.nome);
 		}
 	}
 
