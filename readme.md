@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre DOM*
+*Nessa aula foi ensinado sobre querySelector e querySelectorAll*
 	

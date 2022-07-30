@@ -1,31 +1,16 @@
+	var items_classe = document.getElementsByClassName('item');
 
-	var titulo = document.getElementsByTagName('h1')[0];
+		console.log(items_classe);
 
-		console.log(titulo);
 
-	var tag_ul = document.getElementsByTagName('ul')[0];
+		// querySelectorAll
 
-		// console.log(tag_ul);
+	var items_query = document.querySelectorAll('#lista_dois li');
 
-	var primeiro_paragrafo = document.getElementById('paragrafo');
+		console.log(items_query);
 
-		console.log(primeiro_paragrafo);
+		// querySelector
 
-	var segundo_paragrafo = document.getElementById('paragrafo_dois');
+		var lista = document.querySelector('#lista_um');
 
-		console.log(segundo_paragrafo);
-
-	var terceiro_paragrafo = document.getElementById('paragrafo_tres');
-
-		console.log(terceiro_paragrafo);
-
-	var tag_class_item_um = document.getElementsByClassName('item-1')[0];
-	var tag_class_item_dois = document.getElementsByClassName('item-2')[0];
-	var tag_class_item_tres = document.getElementsByClassName('item-3')[0];
-	var tag_class_item_quatro = document.getElementsByClassName('item-4')[0];
-
-		console.log(tag_class_item_um);
-		console.log(tag_class_item_dois);
-		console.log(tag_class_item_tres);
-		console.log(tag_class_item_quatro);
-
+			console.log(lista);
