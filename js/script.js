@@ -1,3 +1,10 @@
-// Primeiro programa Js.
+	//innerHTML 
+	var title = document.querySelector('#title');
+		title.innerHTML = 'Aula de Programação';
 
-	console.log("Olá mundo!");
+	//textContent -> mais utilizado ,recomendado e performático.
+
+	var subtitle = document.querySelector('.subtitle');
+		subtitle.textContent = 'Avançado';
+		console.log(subtitle);
+		
