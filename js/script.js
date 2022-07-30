@@ -1,16 +1,10 @@
-	var items_classe = document.getElementsByClassName('item');
+	//innerHTML 
+	var title = document.querySelector('#title');
+		title.innerHTML = 'Aula de Programação';
 
-		console.log(items_classe);
+	//textContent -> mais utilizado ,recomendado e performático.
 
-
-		// querySelectorAll
-
-	var items_query = document.querySelectorAll('#lista_dois li');
-
-		console.log(items_query);
-
-		// querySelector
-
-		var lista = document.querySelector('#lista_um');
-
-			console.log(lista);
+	var subtitle = document.querySelector('.subtitle');
+		subtitle.textContent = 'Avançado';
+		console.log(subtitle);
+		
