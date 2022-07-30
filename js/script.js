@@ -1,14 +1,34 @@
-// Meio de remoção do elemento filho no DOM
-var container = document.querySelector('#container');
+
+var container = document.createElement('div');
 	
-	var paragrafo = document.querySelector('#container p')
+	// inserir classe por meio do DOM
+	container.classList = "div-criada";
 
-	container.removeChild(paragrafo);
 
-	console.log(container);
 
-// removendo o proprio elemento, sem ser o filho
+	
 
-	var subtitle = document.querySelector('.subtitle');
 
-	subtitle.remove();
+var aged_container = document.querySelector('#container');
+	
+	//inserindo elemento filho 
+	
+	aged_container.appendChild(container);
+
+
+
+
+	// insertBefore -> insere antes
+
+var container_dois = document.createElement('div');
+
+	container_dois.classList = "div-before";
+
+
+	aged_container.insertBefore(container_dois,container);
+
+	console.log(aged_container);
+
+
+
+

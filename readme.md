@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre remoção de elementos com DOM*
+*Nessa aula foi ensinado sobre adicionar elementos dentro de outro com DOM*
 	
