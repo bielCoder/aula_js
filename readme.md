@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre Orientação a Objetos*
+*Nessa aula foi ensinado sobre DOM*
 	
