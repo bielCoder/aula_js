@@ -1,25 +1,10 @@
-	// ClearTimeout
-	var x = 0;
+	// Onload realizar o carregamento de toda a pagina para executar o DOM.
+	window.onload = function carrega(){
+	var title = document.querySelector('h1');
+	title.style.color = 'red';
+	var paragrafo = document.querySelector('p');
 
-	var myTimer = setTimeout(function(){
-			console.log("O valor de x é 0");
-	},2000);
-
-	x = 5;
-
-	if(x > 0){
-		clearTimeout(myTimer);
-		console.log("O valor de x passou de 0");
+		paragrafo.style.fontSize = '38pt';
+		paragrafo.style.color = 'blue';
 	}
 
-// ClearInterval
-
-	var myInterval = setInterval(function(){
-			console.log("Imprimindo interval");
-	},500);
-
-
-	var pararInterval = setTimeout(function(){
-		console.log("Não precisa mais imprimir.");
-		clearInterval(myInterval);	
-		},1500);	

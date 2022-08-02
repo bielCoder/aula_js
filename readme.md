@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre clearTimeOut e clearInerval*
+*Nessa aula foi ensinado sobre evento onload*
 	
