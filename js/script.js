@@ -1,25 +1,15 @@
-// Adicionar atributos
-var title = document.querySelector('#title');
-
-	title.setAttribute('class','testando-atributo');
-
-	console.log(title);
-
-var btn = document.querySelector('#btn');
-
-	btn.setAttribute('disabled','disabled');
-
-var subtitle = document.querySelector('.subtitle');
-
-	subtitle.setAttribute('id','titulo-2');
+	// selecionar o elemento.
+	var title = document.querySelector('#title');
+	// adiciona o estilo.
+		title.style.color = 'red';
 
 
-// remover atributos.
+	// atributos de estilo com nome composto, segue segunda palavra iniciando-se com letra maiuscula.
 
-	var lista = document.querySelector('#lista_um');
+	// Ex: background-color (css).
 
-		lista.removeAttribute('id');
+		title.style.backgroundColor = 'black';
 
-	var lista_dois = document.querySelector('#lista_dois');
-
-		lista_dois.removeAttribute('id');
+	// cadeia de estilos
+		
+		title.style.cssText = "border: 1px solid red; font-size: 38pt; font-family: Italic; background-color:black;";

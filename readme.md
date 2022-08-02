@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre adicionar atributos setAttribute*
+*Nessa aula foi ensinado sobre manipular css com js*
 	
