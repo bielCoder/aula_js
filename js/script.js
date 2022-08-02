@@ -1,18 +1,15 @@
-	
-	function mensagem(msg){
-		console.log("A operação resultou em: "+msg);
-	}
+// setTimeOut
+	console.log("Antes do setTimeout");
 
-	function soma(a,b,callback){
-		let op = a + b;
-		callback(op);
-	}
+	setTimeout(function(){
+			console.log("Esse é o setTimeout");
+	},2000);
 
-	function multiplicacao(a,b,cb){
-		let op = a * b;
-		cb(op);
-	}
+	console.log("Depois do setTimeout");
 
-	soma(7,6,mensagem);
-	multiplicacao(7,6,mensagem);
 
+// setInterval
+
+	setInterval(function(){
+			console.log("Esse é o setInterval");
+	},1000);

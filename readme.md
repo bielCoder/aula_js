@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre callback function*
+*Nessa aula foi ensinado sobre setTimeOut e setInerval*
 	
