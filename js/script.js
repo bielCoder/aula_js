@@ -1,15 +1,25 @@
-// setTimeOut
-	console.log("Antes do setTimeout");
+	// ClearTimeout
+	var x = 0;
 
-	setTimeout(function(){
-			console.log("Esse é o setTimeout");
+	var myTimer = setTimeout(function(){
+			console.log("O valor de x é 0");
 	},2000);
 
-	console.log("Depois do setTimeout");
+	x = 5;
+
+	if(x > 0){
+		clearTimeout(myTimer);
+		console.log("O valor de x passou de 0");
+	}
+
+// ClearInterval
+
+	var myInterval = setInterval(function(){
+			console.log("Imprimindo interval");
+	},500);
 
 
-// setInterval
-
-	setInterval(function(){
-			console.log("Esse é o setInterval");
-	},1000);
+	var pararInterval = setTimeout(function(){
+		console.log("Não precisa mais imprimir.");
+		clearInterval(myInterval);	
+		},1500);	
