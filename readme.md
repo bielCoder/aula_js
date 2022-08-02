@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre evento click*
+*Nessa aula foi ensinado sobre evento mouseover e mouseout*
 	

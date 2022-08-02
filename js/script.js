@@ -1,19 +1,12 @@
-	// evento click
+	var cubo = document.querySelector('#cubo');
 
-	var btn = document.querySelector('#btn');
+	function mudaCorOver(){
+		cubo.style.backgroundColor = 'red';
+	}
 
-	console.log(btn);
+	function mudaCorOut(){
+		cubo.style.backgroundColor = 'white';
+	}
 
-	btn.addEventListener("click",function(){
-		console.log("clicou");
-		this.style.color = 'red';
-	});
-
-	// evento dbclick
-
-	titulo = document.querySelector('#titulo');
-
-	btn.addEventListener("dblclick",function(){
-		console.log("duplo click");
-		titulo.style.color = 'blue';
-	})
+	cubo.addEventListener("mouseover",mudaCorOver);
+	cubo.addEventListener("mouseout",mudaCorOut);
