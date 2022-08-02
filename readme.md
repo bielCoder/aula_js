@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre trocar elementos com replaceChild*
+*Nessa aula foi ensinado sobre adicionar atributos setAttribute*
 	

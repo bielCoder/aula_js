@@ -1,24 +1,25 @@
-// Criando o elemento que irá substituir.
-var el = document.createElement('h3');
-	el.classList = "testando-class";
+// Adicionar atributos
+var title = document.querySelector('#title');
 
-	var texto = document.createTextNode('Esse é o texto que irá implementar o H3');
+	title.setAttribute('class','testando-atributo');
 
-	el.appendChild(texto);
+	console.log(title);
 
-	console.log(el);
+var btn = document.querySelector('#btn');
+
+	btn.setAttribute('disabled','disabled');
+
+var subtitle = document.querySelector('.subtitle');
+
+	subtitle.setAttribute('id','titulo-2');
 
 
-// selecionar o elemento pai , para assim alterarmos o filho.
+// remover atributos.
 
-var body = document.querySelector('#title');
+	var lista = document.querySelector('#lista_um');
 
-	console.log(body);
+		lista.removeAttribute('id');
 
-// selecionar o pai do el.
+	var lista_dois = document.querySelector('#lista_dois');
 
-var pai = body.parentNode;
-
-// trocar o elemento.
-
-	pai.replaceChild(el,body); 
+		lista_dois.removeAttribute('id');
