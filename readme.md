@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre manipular css com js*
+*Nessa aula foi ensinado sobre propriedades do documento*
 	
