@@ -1,3 +1,15 @@
-// Primeiro programa Js.
+// setTimeOut
+	console.log("Antes do setTimeout");
 
-	console.log("Olá mundo!");
+	setTimeout(function(){
+			console.log("Esse é o setTimeout");
+	},2000);
+
+	console.log("Depois do setTimeout");
+
+
+// setInterval
+
+	setInterval(function(){
+			console.log("Esse é o setInterval");
+	},1000);
