@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre evento onload*
+*Nessa aula foi ensinado sobre evento click*
 	

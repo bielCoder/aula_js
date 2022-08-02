@@ -1,10 +1,19 @@
-	// Onload realizar o carregamento de toda a pagina para executar o DOM.
-	window.onload = function carrega(){
-	var title = document.querySelector('h1');
-	title.style.color = 'red';
-	var paragrafo = document.querySelector('p');
+	// evento click
 
-		paragrafo.style.fontSize = '38pt';
-		paragrafo.style.color = 'blue';
-	}
+	var btn = document.querySelector('#btn');
 
+	console.log(btn);
+
+	btn.addEventListener("click",function(){
+		console.log("clicou");
+		this.style.color = 'red';
+	});
+
+	// evento dbclick
+
+	titulo = document.querySelector('#titulo');
+
+	btn.addEventListener("dblclick",function(){
+		console.log("duplo click");
+		titulo.style.color = 'blue';
+	})
