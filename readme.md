@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre adicionar elementos dentro de outro com DOM*
+*Nessa aula foi ensinado sobre trocar elementos com replaceChild*
 	

@@ -1,34 +1,24 @@
+// Criando o elemento que irá substituir.
+var el = document.createElement('h3');
+	el.classList = "testando-class";
 
-var container = document.createElement('div');
-	
-	// inserir classe por meio do DOM
-	container.classList = "div-criada";
+	var texto = document.createTextNode('Esse é o texto que irá implementar o H3');
 
+	el.appendChild(texto);
 
-
-	
-
-
-var aged_container = document.querySelector('#container');
-	
-	//inserindo elemento filho 
-	
-	aged_container.appendChild(container);
+	console.log(el);
 
 
+// selecionar o elemento pai , para assim alterarmos o filho.
 
+var body = document.querySelector('#title');
 
-	// insertBefore -> insere antes
+	console.log(body);
 
-var container_dois = document.createElement('div');
+// selecionar o pai do el.
 
-	container_dois.classList = "div-before";
+var pai = body.parentNode;
 
+// trocar o elemento.
 
-	aged_container.insertBefore(container_dois,container);
-
-	console.log(aged_container);
-
-
-
-
+	pai.replaceChild(el,body); 
