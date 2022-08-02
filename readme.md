@@ -1,1 +1,2 @@
-*Nessa aula foi ensinado console.log*
+*Nessa aula foi ensinado sobre adicionar atributos setAttribute*
+	
