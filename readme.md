@@ -1,2 +1,2 @@
-*Nessa aula foi ensinado sobre propriedades do documento*
+*Nessa aula foi ensinado sobre callback function*
 	

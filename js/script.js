@@ -1,9 +1,18 @@
-// Propriedade document.
-console.log(document.head);
-console.log(document.body);
+	
+	function mensagem(msg){
+		console.log("A operação resultou em: "+msg);
+	}
 
-console.log(document.links);
+	function soma(a,b,callback){
+		let op = a + b;
+		callback(op);
+	}
 
-console.log(document.URL);
+	function multiplicacao(a,b,cb){
+		let op = a * b;
+		cb(op);
+	}
 
-console.log(document.title);
+	soma(7,6,mensagem);
+	multiplicacao(7,6,mensagem);
+
